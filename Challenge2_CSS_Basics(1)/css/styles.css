@@ -1,11 +1,12 @@
 /*
 COLOR PALETTE
 https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-#F7FFF7 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
+#E5E5E5 - sand whiteish
+#605856 - dark gray - a bit brownish
+#274156 - blue dark
 #FFE66D - yellow
-#A1C6D7 - blue light
+#6CC3E2 - blue light
+F7FFF7 - almost white
 */
 
 
@@ -30,7 +31,11 @@ img {
   width: 300px;
 }
 a {
-  color: #FFE66D;
+    color: #FFE66D;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px; 
+    display: inline-block;
 }
 a:hover {
   text-decoration: none;
@@ -39,6 +44,7 @@ h1 {
   font-size: 100px;
   line-height: 1;
 }
+
 h2 {
   font-size: 45px;
 }
@@ -52,6 +58,7 @@ h1, h2 {
   width: 85%;
   margin: 0 auto;
   padding: 60px 0;
+    
 }
 h3 {
   margin-bottom: 0;
@@ -91,7 +98,7 @@ header {
   color: #E5E5E5;
   background: #274156;
   text-decoration: none;
-  padding: 8px;
+  padding: 10px;
   border-radius: 4px;
   display: inline-block;
 }
@@ -131,7 +138,7 @@ header {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #6CC3E2;
+  background: #6CC3E2 ;
   color: #F7FFF7;
 }
 .contact-list {
