@@ -76,7 +76,17 @@ h3 {
 .divider > section:last-of-type {
   border-bottom: none;
 }
-
+img {
+    border: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 150px;
+    border: 1px solid #777;
+}
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 140, 0.5);
+}
 
 /* Profile
 ------------------------------------*/
@@ -113,12 +123,27 @@ header {
 }
 
 
-/* Work Experience
+/* Gallery
 ------------------------------------*/
-.work-experience {
-  background: #6CC3E2
-      /*A1C6D7;*/
+.gallery {
+  background: #6CC3E2;  
 }
+
+.gallery-img {
+    padding: 1px;
+    border-radius: 4px;
+    display: inline;
+}
+
+.gallery-img{
+    border:1pk solid #777;
+}
+
+
+      
+      
+      /*A1C6D7;*/
+
 
 
 
